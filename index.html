@@ -16,7 +16,7 @@
     <!-- Header Start -->
     <section class="header">
         <div class="container">
-            <div class="row">
+            <div class="row v-center">
                 <div class="header_items item_left">
                     <div class="header_logo">
                         <a href="#">MyStore</a>
@@ -24,22 +24,61 @@
                 </div>
                 <!-- Menu Start Here -->
                 <div class="header_items item_center">
+                    <div class="menu_overlay">
+                        
+                    </div>
                     <nav class="menu">
+                        <div class="mobile_menu_heading">
+                            <div class="go-back">
+                                <i class="fa fa-angle-left"></i>
+                            </div>
+                            <div class="current_menu_title"></div>
+                            <div class="mobile_menu_closed">&times;</div>
+                        </div>
                         <ul class="menu_main">
                             <li><a href="#">Home</a></li>
                             <li><a href="#">New</a></li>
                             <li><a href="#">Shop</a></li>
-                            <li class="menu"><a href="#">Blog</a></li>
-                            <li><a href="#">pages</a></li>
+                            <li class="menu_item_has_children"><a href="#">Blog <i class="fas fa-angle-down"></i></a>
+                                <div class="sub_menu single_column_menu">
+                                    <ul>
+                                        <li><a href="#">page no 01</a></li>
+                                        <li><a href="#">page no 02</a></li>
+                                        <li><a href="#">page no 03</a></li>
+                                        <li><a href="#">page no 04</a></li>
+                                        <li><a href="#">page no 05</a></li>
+                                    </ul>
+
+                                </div>
+                            </li>
+                            <li class="menu_item_has_children"><a href="#">Pge<i class="fas fa-angle-down"></i></a>
+                                <div class="sub_menu single_column_menu">
+                                    <ul>
+                                        <li><a href="#">page no 01</a></li>
+                                        <li><a href="#">page no 02</a></li>
+                                        <li><a href="#">page no 03</a></li>
+                                        <li><a href="#">page no 04</a></li>
+                                        <li><a href="#">page no 05</a></li>
+                                    </ul>
+
+                                </div>
+                            </li>
                             <li><a href="#">Contact</a></li>
                         </ul>
                     </nav>
                 </div>
                 <div class="header_items item_right">
-                    <a href="#"><i class="fa-solid fa-magnifying-glass" style="color: #000000;"></i></a>
+                    <!-- <a href="#"><i class="fa-solid fa-magnifying-glass" style="color: #000000;"></i></a>
                     <a href="#"><i class="fa-regular fa-heart" style="color: #000000;"></i></a>
-                    <a href="#"><i class="fa-solid fa-cart-shopping" style="color: #000000;"></i></a>
+                    
+                    <a href="#"><i class="fa-solid fa-cart-shopping" style="color: #000000;"></i></a> -->
+                    <div class="mobile_menu_trigger">
+                        <span></span>
+                       
+                    </div>
                 </div>
+                
+               
                 <!-- Menu End Here -->
             </div>
         </div>
