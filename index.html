@@ -1,100 +1,125 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>mega navbar</title>
-    <link rel="stylesheet" href="style.css">
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
-
-<body>
-    <!-- Header Start -->
-    <section class="header">
-        <div class="container">
-            <div class="row v-center">
-                <div class="header_items item_left">
-                    <div class="header_logo">
-                        <a href="#">MyStore</a>
-                    </div>
-                </div>
-                <!-- Menu Start Here -->
-                <div class="header_items item_center">
-                    <div class="menu_overlay">
-                        
-                    </div>
-                    <nav class="menu">
-                        <div class="mobile_menu_heading">
-                            <div class="go-back">
-                                <i class="fa fa-angle-left"></i>
-                            </div>
-                            <div class="current_menu_title"></div>
-                            <div class="mobile_menu_closed">&times;</div>
-                        </div>
-                        <ul class="menu_main">
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">New</a></li>
-                            <li><a href="#">Shop</a></li>
-                            <li class="menu_item_has_children"><a href="#">Blog <i class="fas fa-angle-down"></i></a>
-                                <div class="sub_menu single_column_menu">
-                                    <ul>
-                                        <li><a href="#">page no 01</a></li>
-                                        <li><a href="#">page no 02</a></li>
-                                        <li><a href="#">page no 03</a></li>
-                                        <li><a href="#">page no 04</a></li>
-                                        <li><a href="#">page no 05</a></li>
-                                    </ul>
-
-                                </div>
-                            </li>
-                            <li class="menu_item_has_children"><a href="#">Pge<i class="fas fa-angle-down"></i></a>
-                                <div class="sub_menu single_column_menu">
-                                    <ul>
-                                        <li><a href="#">page no 01</a></li>
-                                        <li><a href="#">page no 02</a></li>
-                                        <li><a href="#">page no 03</a></li>
-                                        <li><a href="#">page no 04</a></li>
-                                        <li><a href="#">page no 05</a></li>
-                                    </ul>
-
-                                </div>
-                            </li>
-                            <li><a href="#">Contact</a></li>
-                        </ul>
-                    </nav>
-                </div>
-                <div class="header_items item_right">
-                    <!-- <a href="#"><i class="fa-solid fa-magnifying-glass" style="color: #000000;"></i></a>
-                    <a href="#"><i class="fa-regular fa-heart" style="color: #000000;"></i></a>
-                    
-                    <a href="#"><i class="fa-solid fa-cart-shopping" style="color: #000000;"></i></a> -->
-                    <div class="mobile_menu_trigger">
-                        <span></span>
-                       
-                    </div>
-                </div>
-                
-               
-                <!-- Menu End Here -->
+<html>
+  <head>
+    <title>Mega Menu</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  </head>
+  <body>
+    <!-- header start -->
+    <header class="header">
+      <div class="container">
+        <div class="row v-center">
+          <div class="header-item item-left">
+            <div class="logo">
+              <a href="#">MyStore</a>
             </div>
+          </div>
+          <!-- menu start here -->
+          <div class="header-item item-center">
+            <div class="menu-overlay"></div>
+            <nav class="menu">
+              <div class="mobile-menu-head">
+                <div class="go-back"><i class="fa fa-angle-left"></i></div>
+                <div class="current-menu-title"></div>
+                <div class="mobile-menu-close">&times;</div>
+              </div>
+              <ul class="menu-main">
+                <li class="menu-item-has-children menu_item-has_children_btn">
+                  <a href="#"
+                    >All Categories <i class="fa fa-angle-down"></i
+                  ></a>
+                  <div class="sub-menu mega-menu mega-menu-column-4">
+                    <div class="list-item text-center">
+                      <a href="#">
+                        <h4 class="title"><a href="#">Popular Product</a></h4>
+                        <h4 class="title">
+                          <a href="#">Fruits & Vegetables</a>
+                        </h4>
+                        <h4 class="title"><a href="#">Milk & Juices</a></h4>
+                        <h4 class="title"><a href="#">Meats & Protein</a></h4>
+                        <h4 class="title"><a href="#">Beverage & Drinks</a></h4>
+                      </a>
+                    </div>
+                    <div class="list-item text-center">
+                      <a href="#">
+                        <h4 class="title"><a href="#">Chocolate Box</a></h4>
+                        <h4 class="title"><a href="#">Bakery</a></h4>
+                        <h4 class="title"><a href="#">Coffee & Snacks</a></h4>
+                        <h4 class="title">
+                          <a href="#">Condiments / Spices</a>
+                        </h4>
+                        <h4 class="title"><a href="#">Oils & Vinegars</a></h4>
+                      </a>
+                    </div>
+                    <div class="list-item text-center">
+                      <a href="#">
+                        <h4 class="title">
+                          <a href="#">Canned & Dried Goods</a>
+                        </h4>
+                        <h4 class="title"><a href="#">Personal Care</a></h4>
+                        <h4 class="title"><a href="#">Paper & Warp</a></h4>
+                        <h4 class="title">
+                          <a href="#">House Hold Supplies</a>
+                        </h4>
+                        <h4 class="title"><a href="#">Baby Items</a></h4>
+                      </a>
+                    </div>
+                    <div class="list-item text-center">
+                      <a href="#">
+                        <h4 class="title"><a href="#">Flour/ Atta</a></h4>
+                        <h4 class="title">
+                          <a href="#">Dal/ Lentils & Legumes</a>
+                        </h4>
+                        <h4 class="title"><a href="#">Add More Item</a></h4>
+                        <h4 class="title"><a href="#">Add More Item</a></h4>
+                        <h4 class="title"><a href="#">Add More Item</a></h4>
+                      </a>
+                    </div>
+                  </div>
+                </li>
+                <li class="navbar_side">
+                  <a href="#">Home</a>
+                </li>
+
+                <li class="menu-item-has-children">
+                  <a href="#">Shop</a>
+                </li>
+                <li class="menu-item-has-children">
+                  <a href="#">Pages <i class="fas fa-angle-down"></i></a>
+                  <div class="sub-menu single-column-menu">
+                    <ul>
+                      <li><a href="#">Standard Layout</a></li>
+                      <li><a href="#">Grid Layout</a></li>
+                      <li><a href="#">single Post Layout</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="menu-item-has-children">
+                  <a href="#">About US</a>
+                </li>
+                <li>
+                  <a href="#">Contact Us</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <!-- menu end here -->
+          <div class="header-item item-right">
+            <div class="mobile-menu-trigger">
+              <span></span>
+            </div>
+          </div>
         </div>
-    </section>
-    <!-- Header End -->
+      </div>
+    </header>
+    <!-- header end -->
 
-    <!-- Banner Start -->
-    <section class="banner">
+    <!-- card -->
+    <section id=""></section>
+    <!-- card -->
 
-    </section>
-    <!-- Banner End -->
-
-
-    <!-- js -->
-    <script src="./nav.js"></script>
-    <!-- js -->
-</body>
-
+    <script src="js/script.js"></script>
+  </body>
 </html>
